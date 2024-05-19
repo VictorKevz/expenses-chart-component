@@ -1,0 +1,56 @@
+.chart-container {
+  width: 100%;
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 15px;
+  padding: 30px;
+  max-height: 513px;
+
+}
+.chart-container > h2 {
+  font-size: 3rem;
+  color: hsl(25, 47%, 15%);
+}
+.chart-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  border-bottom: 2px solid hsl(27, 66%, 92%);
+}
+.chart-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 33px;
+}
+.bar {
+  width: 54px;
+  border-radius: 5px;
+  background-color: hsl(10, 79%, 65%);
+  margin-bottom: 12px;
+}
+.bar.cyan{
+    background-color: hsl(186, 34%, 60%);
+}
+.bar:hover{
+    cursor: pointer;
+    background-color: hsl(10, 79%, 65%,.7);
+
+}
+.bar.cyan:hover{
+  background-color: hsl(186, 34%, 60%,.7);
+
+}
+.amount{
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(27, 66%, 92%);
+    margin-bottom: 8px;
+    font-weight: 400;
+    border-radius: 5px;
+    max-width: 71px;
+    padding: 12%;
+}
+@media (max-width:600px) {
+  .chart-container > h2 {
+    font-size: 2rem;
+  } 
+}

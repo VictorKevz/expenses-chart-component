@@ -1,0 +1,22 @@
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.bottom-container > h3 {
+  font-size: 4.6rem;
+  color: hsl(25, 47%, 15%);
+
+}
+.bottom-container > p>span {
+  font-weight: 700;
+  text-align: right;
+  color: hsl(25, 47%, 15%);
+
+}
+@media (max-width:600px) {
+  .bottom-container > h3 {
+    font-size: 3rem;
+  } 
+}

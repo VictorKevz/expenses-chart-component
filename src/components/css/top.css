@@ -1,0 +1,21 @@
+.top-container{
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(33, 100%, 98%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    margin-bottom: 2.4%;
+    padding: 30px;
+
+}
+
+.top-container>h1{
+    font-size: 3rem;
+}
+.top-container>h1>span{
+    color: hsl(33, 100%, 98%);
+  
+}
